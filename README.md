@@ -4,6 +4,6 @@
 1. [Entropy](#Entropy)
 
 <a name="Entropy"></a>
-**Entropy is a beauty:**
+**1. Entropy is a beauty:**
 
   More details: 
