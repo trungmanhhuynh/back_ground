@@ -4,6 +4,17 @@
 -- [Entropy](#Entropy)
 
 
+
+
+
+
+
+
+
+
+
+
+
 <a name="Entropy"></a>
 **Entropy is a beauty:**
 
