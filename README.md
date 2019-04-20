@@ -5,8 +5,8 @@
 1. v
 
 <a name="Entropy"></a>
-**1. Entropy is a beauty:**
+# Entropy is a beauty
 
   More details: 
 
-**1. v**
+
