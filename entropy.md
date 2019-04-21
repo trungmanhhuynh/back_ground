@@ -5,14 +5,11 @@ For example, the entropy answers the question if one sends 4 types of messages (
 
 
 It easy to understand that this formula is correct in the scenario that the probabilities of all message types
-are equal (let's say 12.5% for 8 message types). We need to use 3 bits to encode each message. However, it is interesting that this formula is also correct for the different probability message types. For example, if the probability "fine" is 50% then it should be encoded with log(2) = 1 bit; "cloudy" is 25%, thus it should be encoded with log(4) = 2 bits, and so on.
+are equal (let's say 12.5% for 8 message types). We need to use 3 bits to encode each message. However, it is interesting that this formula is also correct for the different probability message types. For example, if the probability "fine" is 50% then it should be encoded with <img src="/tex/29fe1194e11dbaab86181bd3455d9585.svg?invert_in_darkmode&sanitize=true" align=middle width=72.76823565pt height=24.65753399999998pt/> bit; "cloudy" is 25%, thus it should be encoded with log(4) = 2 bits, and so on.
 
 We also know that:
-log(N) = -log(1/N) = -log(p(x)), where p(x) = 1/N. This is very interesting because, given the probability of each message type, we are able to calculate the minimum bits required to encode it. yay!
+<img src="/tex/8edf3f2443f66ed8dba77faa12426f10.svg?invert_in_darkmode&sanitize=true" align=middle width=268.97284095pt height=24.65753399999998pt/>, where <img src="/tex/a96ba097f291304219ff756b90ea1b0f.svg?invert_in_darkmode&sanitize=true" align=middle width=82.89378405pt height=24.65753399999998pt/>. This is very interesting because, given the probability of each message type, we are able to calculate the minimum bits required to encode it. yay!
 
-
-
-<img src="/tex/d62fbe219457fce60682a162b4ecbab4.svg?invert_in_darkmode&sanitize=true" align=middle width=124.40236709999998pt height=24.65753399999998pt/> 
 ***
 I learned a lot from these great articles
 1. [Demystifying Entropy](https://towardsdatascience.com/demystifying-entropy-f2c3221e2550) by Naoki Shibuya 
