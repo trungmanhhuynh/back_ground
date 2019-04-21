@@ -14,7 +14,7 @@ $log_2(N) = -log_2(1/N) = -log_2(p(x))$, where $p(x) = 1/N$. This is very intere
 
 The  minimum bits to encode all messages is thus: \
 <p align="center">
-  Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula
+  $Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula
 </p>
 
 
