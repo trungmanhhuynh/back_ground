@@ -19,3 +19,10 @@ In image classification, because we use one-hot encoding mechanism and <img src=
 
 Thus, we can see if the model predict the dog image correctly ([1,0,0]), the loss H(P,Q) is 0, while if it predict incorrectly [0.01, 0.99, 0], H(P,Q) is 4.6.  The negative log curve (loss) should be like this: 
 ![alt text](http://www.sosmath.com/algebra/logs/log4/log42/log422/gl30.gif)
+
+ - In image classificaion, since the prediction probability is always from 0-1, thus the average loss if calculated correctly is only range from ~4 and gradually reducing to 0. In other applications, if the probability is not scaled well, the loss could be negative. 
+ - In machine learnimg, natural log (log base e) is commonly used instead of log base 2. This is becaseu natural log is compatible with the derivative when calculting gradients, while log base 2 is not. Note that log base 2 is conventional and it is intuitive in information because it respresents the number of bits encoded (log(0.5) is 2 bits). Log base e does not represent any metrics; however, it is well-suited for the purpose of minimizing loss.
+ 
+ Articles: 
+ - [Demystifying Cross-Entropy](https://towardsdatascience.com/demystifying-cross-entropy-e80e3ad54a8) by  Naoki Shibuya
+ 
