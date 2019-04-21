@@ -1,12 +1,8 @@
 # Back ground
 **Table of Contents:**
 
-1. [Entropy](#Entropy)
-1. v
+1. [Entropy](https://github.com/trungmanhhuynh/back_ground/wiki/Entropy)
 
-<a name="Entropy"></a>
-# Entropy is a beauty
 
-  More details: 
 
 
