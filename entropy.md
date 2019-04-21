@@ -13,7 +13,9 @@ We also know that:
 <img src="/tex/8edf3f2443f66ed8dba77faa12426f10.svg?invert_in_darkmode&sanitize=true" align=middle width=268.97284095pt height=24.65753399999998pt/>, where <img src="/tex/a96ba097f291304219ff756b90ea1b0f.svg?invert_in_darkmode&sanitize=true" align=middle width=82.89378405pt height=24.65753399999998pt/>. This is very interesting because, given the probability of each message type, we are able to calculate the minimum bits required to encode it. yay!
 
 The  minimum bits to encode all messages is thus: \
-            $ Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula
+<p align="center">
+  Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula
+</p>
 
 
 ***
