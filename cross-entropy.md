@@ -12,6 +12,7 @@ The concept of cross-entropy helps us to acomplish this. Given the true distribu
 <p align="center"> <img src="/tex/aa7e20514855d6bf3fb21d2e2de6ce3a.svg?invert_in_darkmode&sanitize=true" align=middle width=366.51908204999995pt height=24.657735299999988pt/> </p>
 
 <p align="center"> <img src="/tex/4bdc5dd35f72d9085a529bc76f6a7f09.svg?invert_in_darkmode&sanitize=true" align=middle width=366.9950394pt height=24.657735299999988pt/> </p>
+In information theory, <img src="/tex/67f4339f01ef1283c1af5592fadcc0b6.svg?invert_in_darkmode&sanitize=true" align=middle width=138.1264731pt height=24.65753399999998pt/> is how many redundant bits to encode messages from the theorically minimum ones.
+In image classification, because we use one-hot encoding mechanism and <img src="/tex/0ae047b1e4a6d17d5b5329e7cacf1b52.svg?invert_in_darkmode&sanitize=true" align=middle width=42.63139649999999pt height=24.65753399999998pt/> is 0, the <img src="/tex/ba9cea0aa0038424952f45c90de9c5d3.svg?invert_in_darkmode&sanitize=true" align=middle width=59.096967599999985pt height=24.65753399999998pt/> is itself the distance (loss) from the truth distribution. Using example above, the loss of predicting that image is (given we've already know it is dog image) is: 
+<p align="center"> <img src="/tex/e848f03c7d7cc38a9192604a1e4c5731.svg?invert_in_darkmode&sanitize=true" align=middle width=646.5493947pt height=24.657735299999988pt/>  </p>
 
-
-In information theory, <img src="/tex/67f4339f01ef1283c1af5592fadcc0b6.svg?invert_in_darkmode&sanitize=true" align=middle width=138.1264731pt height=24.65753399999998pt/> is how many redundant bits from the theorically minimum ones.
