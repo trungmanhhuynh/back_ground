@@ -14,4 +14,4 @@ The concept of cross-entropy helps us to acomplish this. Given the true distribu
 <p align="center"> <img src="/tex/4bdc5dd35f72d9085a529bc76f6a7f09.svg?invert_in_darkmode&sanitize=true" align=middle width=366.9950394pt height=24.657735299999988pt/> </p>
 
 
-In information theory, H(P,Q) - H(P,P) is how many redundant bits from the theorically minimum ones.
+In information theory, <img src="/tex/67f4339f01ef1283c1af5592fadcc0b6.svg?invert_in_darkmode&sanitize=true" align=middle width=138.1264731pt height=24.65753399999998pt/> is how many redundant bits from the theorically minimum ones.
