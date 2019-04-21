@@ -12,10 +12,8 @@ are equal (let's say 12.5% for 8 message types). We need to use 3 bits to encode
 We also know that:
 <img src="/tex/8edf3f2443f66ed8dba77faa12426f10.svg?invert_in_darkmode&sanitize=true" align=middle width=268.97284095pt height=24.65753399999998pt/>, where <img src="/tex/a96ba097f291304219ff756b90ea1b0f.svg?invert_in_darkmode&sanitize=true" align=middle width=82.89378405pt height=24.65753399999998pt/>. This is very interesting because, given the probability of each message type, we are able to calculate the minimum bits required to encode it. yay!
 
-The  minimum bits to encode all messages is thus: \
-<p align="center">
-  <img src="/tex/47bcf7b4c1471cf743b5df3d4ab59dce.svg?invert_in_darkmode&sanitize=true" align=middle width=230.6100852pt height=24.657735299999988pt/> -- a well-known formula
-</p>
+The  minimum bits to encode all messages is thus:
+ &nbsp&nbsp&nbsp <img src="/tex/47bcf7b4c1471cf743b5df3d4ab59dce.svg?invert_in_darkmode&sanitize=true" align=middle width=230.6100852pt height=24.657735299999988pt/> -- a well-known formula
 
 
 ***
