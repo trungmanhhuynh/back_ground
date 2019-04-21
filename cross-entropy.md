@@ -23,9 +23,9 @@ Thus, we can see if the model predict the dog image correctly ([1,0,0]), the los
  - In image classificaion, since the prediction probability is always from 0-1, thus the average loss if calculated correctly is only range from ~4 and gradually reducing to 0. In other applications, if the probability is not scaled well, the loss could be negative. 
  - In machine learnimg, natural log (log base e) is commonly used instead of log base 2. This is becaseu natural log is compatible with the derivative when calculting gradients, while log base 2 is not. Note that log base 2 is conventional and it is intuitive in information because it respresents the number of bits encoded (log(0.5) is 2 bits). Log base e does not represent any metrics; however, it is well-suited for the purpose of minimizing loss.
  - Binary cross-entropy is an simple case of this where 
- <p align="center"> H(P,Q) = - \sum_iP(x)log(Q(x))  </p>
- <p align="center">- [P(cat)logQ(cat) + P(dog)logQ(dog)] </p>
- <p align="center">- [P(cat)logQ(cat) + (1- P(cat))log(1 - Q(cat))] </p>
+ <p align="center"> <img src="/tex/7dd7180ff6e20be8f216ea3574e20153.svg?invert_in_darkmode&sanitize=true" align=middle width=226.7090232pt height=24.657735299999988pt/> </p>
+ <p align="center"> <img src="/tex/aeb4d08bb6cfedc29b55663251e6c12a.svg?invert_in_darkmode&sanitize=true" align=middle width=281.4555611999999pt height=24.65753399999998pt/> </p>
+ <p align="center"> <img src="/tex/e17793b5121ed2ff90a82ecf572b11b9.svg?invert_in_darkmode&sanitize=true" align=middle width=357.21659655pt height=24.65753399999998pt/> </p>
 
  
  **Articles**: 
