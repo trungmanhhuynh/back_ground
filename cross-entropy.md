@@ -18,4 +18,4 @@ In image classification, because we use one-hot encoding mechanism and <img src=
 <p align="center"> <img src="/tex/e848f03c7d7cc38a9192604a1e4c5731.svg?invert_in_darkmode&sanitize=true" align=middle width=646.5493947pt height=24.657735299999988pt/>  </p>
 
 Thus, we can see if the model predict the dog image correctly ([1,0,0]), the loss H(P,Q) is 0, while if it predict incorrectly [0.01, 0.99, 0], H(P,Q) is 4.6.  The negative log curve (loss) should be like this: 
-![alt text](https://www.google.com/search?q=negative+natural+log+curve&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiPuPbTpuLhAhWOtp4KHS1WC5gQ_AUIDigB&biw=1344&bih=726#imgrc=6SrdjyDzgHuVLM:)
+![alt text](http://www.sosmath.com/algebra/logs/log4/log42/log422/gl30.gif)
