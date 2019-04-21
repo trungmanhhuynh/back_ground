@@ -14,4 +14,4 @@ The concept of cross-entropy helps us to acomplish this. Given the true distribu
 <p align="center"> $H(P,Q) = - \sum_iP(x)log(Q(x)) = \mathbb{E}_{x \sim P }[-logQ(x)]$ </p>
 
 
-In information theory, H(P,Q) - H(P,P) is how many redundant bits from the theorically minimum ones.
+In information theory, $H(P,Q) - H(P,P)$ is how many redundant bits from the theorically minimum ones.
