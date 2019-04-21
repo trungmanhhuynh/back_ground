@@ -5,7 +5,7 @@ For example, the entropy answers the question if one sends 4 types of messages (
 
 
 It easy to understand that this formula is correct in the scenario that the probabilities of all message types
-are equal (let's say 12.5% for 8 message types). We need to use 3 bits to encode each message. However, it is interesting that this formula is also correct for the different probability message types. For example, if the probability "fine" is 50% then it should be encoded with $log(2) = 1$ bit; "cloudy" is 25%, thus it should be encoded with log(4) = 2 bits, and so on.
+are equal (let's say 12.5% for 8 message types). We need to use 3 bits to encode each message. However, it is interesting that this formula is also correct for the different probability message types. For example, if the probability "fine" is 50% then it should be encoded with $log(2) = 1$ bit; "cloudy" is 25%, thus it should be encoded with $log_2(4) = 2$ bits, and so on.
 
 We also know that:
 $log_2(N) = -log_2(1/N) = -log_2(p(x))$, where $p(x) = 1/N$. This is very interesting because, given the probability of each message type, we are able to calculate the minimum bits required to encode it. yay!
