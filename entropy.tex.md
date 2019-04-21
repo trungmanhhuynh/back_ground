@@ -15,6 +15,9 @@ $log_2(N) = -log_2(1/N) = -log_2(p(x))$, where $p(x) = 1/N$. This is very intere
 The  minimum bits to encode all messages is thus:
 <p align="center"> $Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula </p>
 
+** Entropy is thus related to the following terms: 
+
+1. uncertainty/disorder/unpredicability/surprise/amount of information: when entropy is high (the averaged number of bits used to encode are high), we have more messages with low probabilities. Thus, when a message is received, we dont expect that this is the same message we received as the previous one. We says it is high uncertainty or disorder or upredicability. So, high entropy ~ high uncertainly. When the same low proability message is received, it is a surprise. Also, high entropy indicates a high amount of information (a high number of encoding bits).
 
 
 ***
