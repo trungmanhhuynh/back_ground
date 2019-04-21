@@ -12,6 +12,7 @@ The concept of cross-entropy helps us to acomplish this. Given the true distribu
 <p align="center"> $H(P,P) = - \sum_iP(x)log(P(x)) = \mathbb{E}_{x \sim P }[-logP(x)] $ </p>
 
 <p align="center"> $H(P,Q) = - \sum_iP(x)log(Q(x)) = \mathbb{E}_{x \sim P }[-logQ(x)]$ </p>
+
 In information theory, $H(P,Q) - H(P,P)$ is how many redundant bits to encode messages from the theorically minimum ones.
 In image classification, because we use one-hot encoding mechanism and $log(1)$ is 0, the $H(P,Q)$ is itself the distance (loss) from the truth distribution. Using example above, the loss of predicting that image is (given we've already know it is dog image) is: 
 <p align="center"> $H(P,Q) = - \sum_iP(x)log(Q(x)) = - (1log(0.6) + 0log(0.1) +0log(0.3)) = -log(0.6) = 0.51 $  </p>
