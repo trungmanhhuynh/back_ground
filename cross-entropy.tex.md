@@ -10,6 +10,9 @@ can predict it as [0.6, 0.1, 0.3] meaning 60% this image is dog image, 10% is ca
 
 The concept of cross-entropy helps us to acomplish this. Given the true distribution P (in our example, it can be [1,0,0] of dog class) and the estimated distribution Q (it is [0.6, 0.1, 0.3]), once cross-entropy H(P,Q) is calculated, we know how far it is from the theoricaly optimal one H(P,P). 
 <p align="center">
-$H(P,P) = - \sum_iP(x)log(P(x)) = \mathbb{E}_{x \sim P }[-logP(x)] \\
-H(P,Q) = - \sum_iP(x)log(Q(x)) = \mathbb{E}_{x \sim P }[-logQ(x)]$
+$H(P,P) = - \sum_iP(x)log(P(x)) = \mathbb{E}_{x \sim P }[-logP(x)] $
+  
+$H(P,Q) = - \sum_iP(x)log(Q(x)) = \mathbb{E}_{x \sim P }[-logQ(x)]$
 </p>
+
+In information theory, H(P,Q) - H(P,P) is how many redundant bits from the theorically minimum ones.
