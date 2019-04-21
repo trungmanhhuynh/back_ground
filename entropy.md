@@ -14,7 +14,7 @@ We also know that:
 
 The  minimum bits to encode all messages is thus: \
 <p align="center">
-  Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula
+  <img src="/tex/47bcf7b4c1471cf743b5df3d4ab59dce.svg?invert_in_darkmode&sanitize=true" align=middle width=230.6100852pt height=24.657735299999988pt/> -- a well-known formula
 </p>
 
 
