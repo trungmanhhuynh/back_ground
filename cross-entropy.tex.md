@@ -1,2 +1,2 @@
 
-# Cross-entropy: an exiting concepts and its applications in reducing loss. 
+# Cross-entropy: an exiting concept and its application in reducing loss. 
