@@ -1,3 +1,5 @@
+# Entropy is a beatiful formula 
+
 "Entropy" term is invented by Claude Shannon, who is the father of information theory.
 Shannon defined the **entropy as the smallest possible average size of lossless encoding of the messages sent from the source to the destination.**
 
@@ -9,6 +11,10 @@ are equal (let's say 12.5% for 8 message types). We need to use 3 bits to encode
 
 We also know that:
 $log_2(N) = -log_2(1/N) = -log_2(p(x))$, where $p(x) = 1/N$. This is very interesting because, given the probability of each message type, we are able to calculate the minimum bits required to encode it. yay!
+
+The  minimum bits to encode all messages is thus: 
+$  Entropy =  - \sum_{i=1}p(x)log_2p(x) $ -- a well-known formula
+
 
 ***
 I learned a lot from these great articles
